@@ -36,8 +36,8 @@ def next():
 
 pygame.init()
 screen = pygame.display.set_mode(size)
-pygame.mixer.music.load('Spore soundtrack.mp3')
-pygame.mixer.music.play()
+# pygame.mixer.music.load('Spore soundtrack.mp3')
+# pygame.mixer.music.play()
 world = Universe()
 running, pause = True, False
 clock = pygame.time.Clock()

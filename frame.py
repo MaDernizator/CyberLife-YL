@@ -312,7 +312,7 @@ class Universe:
 
 
 MAX_HP = 1500
-X_SIZE, Y_SIZE = 1200, 600
+X_SIZE, Y_SIZE = 600, 300
 user32 = ctypes.windll.user32
 CELL_SIZE = (min((user32.GetSystemMetrics(0), user32.GetSystemMetrics(1))) - 150) // Y_SIZE
 print(CELL_SIZE)
