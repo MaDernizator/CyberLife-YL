@@ -62,8 +62,8 @@ with open(ex.get_name(), 'r', encoding='utf-8') as file:
 pygame.init()
 size = width, height = X_SIZE * CELL_SIZE + 5, Y_SIZE * CELL_SIZE + 50
 screen = pygame.display.set_mode(size)
-pygame.mixer.music.load('Spore soundtrack.mp3')
-pygame.mixer.music.play()
+# pygame.mixer.music.load('Spore soundtrack.mp3')
+# pygame.mixer.music.play()
 pause = False
 clock = pygame.time.Clock()
 age = 0
